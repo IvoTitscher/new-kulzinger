@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Company Info */}
         <div>
-          <a href="#" className="flex items-center justify-center md:justify-start space-x-3 mb-4 transition-all duration-300 hover:scale-105">
+          <a href="/" className="flex items-center justify-center md:justify-start space-x-3 mb-4 transition-all duration-300 hover:scale-105">
             <div className="p-2 bg-blue-500 rounded-lg shadow-lg">
               <Zap className="w-6 h-6 text-white" />
             </div>
@@ -67,8 +67,8 @@ const Footer: React.FC = () => {
       
       <div className="max-w-7xl mx-auto px-6 mt-8 border-t border-gray-700 pt-8 text-sm text-center">
         <p>
-          <a href="#" className="text-gray-400 hover:text-blue-400 mr-4">Impressum</a>
-          <a href="#" className="text-gray-400 hover:text-blue-400">Datenschutz</a>
+          <a href="/" className="text-gray-400 hover:text-blue-400 mr-4">Impressum</a>
+          <a href="/" className="text-gray-400 hover:text-blue-400">Datenschutz</a>
         </p>
         <p className="mt-4 text-gray-500">Webdesign: PTH-Webservice (Placeholder)</p>
       </div>

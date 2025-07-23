@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <header className="relative bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
+        <a href="/" className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
           <div className="p-2 bg-blue-500 rounded-lg shadow-lg">
             <Zap className="w-8 h-8 text-white" />
           </div>
