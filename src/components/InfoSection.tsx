@@ -3,11 +3,6 @@ import * as Icons from 'lucide-react';
 import { INFO_CARDS, CONTACT_INFO } from '../constants';
 
 const InfoSection: React.FC = () => {
-  const getIcon = (iconName: string) => {
-    const Icon = Icons[iconName as keyof typeof Icons] as React.ComponentType<{ className?: string }>;
-    return Icon ? <Icon /> : null;
-  };
-
   return (
     <section className="py-16 bg-white border-b border-gray-100" id="contact-info">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
